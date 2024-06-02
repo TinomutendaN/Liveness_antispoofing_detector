@@ -1,7 +1,7 @@
 import os
-
 from ultralytics import YOLO
 import cv2
+
 
 cap = cv2.VideoCapture(0)  # 0 represents the default webcam, you can change it if you have multiple cameras
 if not cap.isOpened():
